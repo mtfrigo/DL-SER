@@ -2,7 +2,7 @@
 
 The project has two parts:
 
-* Natural Language Understanding
+* [Natural Language Understanding](https://github.com/mtfrigo/DL-NLU)
 
 * Speech Emotion Recognition
 
