@@ -14,9 +14,7 @@ Speech Emotion Recognition (SER) is the hability to recognize emotion from the a
 
 Generally for this kind of application the input would be speech recodings (.wav files) and the output various emotions class (happy, sad, excited, depressed, ...)
 
-In our case it is provided a preprocessed inputs (LogMel features) and the expected output is two binary labels: Arousal and Valence.
-
-With this in mid, this approach does not implements a transformation of audio files into a dataset.
+In our case it is provided a preprocessed inputs (LogMel features) and the expected output is two binary labels: Arousal and Valence. **This approach does not implements a transformation of audio files into a dataset.**
 
 ### Prerequisites
 
