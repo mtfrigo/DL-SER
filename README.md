@@ -41,7 +41,7 @@ As said before, the input in this case is already preprocessed and this means ou
 
 Each input data has its own features. The feature array is composed of different quantities of inner arrays with length equals 26. It means the inner array will always have the same length (26) while the outer array is totaly random. We have to consider this for the transformation of data.
 
-So, each input data has a dimension of (F, 26) where F is the number of inner arrays. The Neural Network needs all the inputs to have the same length, then we need to padding/trucante (some data will have more and some data will have less quantity of inner arrays of the threshold).
+So, each input data has a dimension of (F, 26) where F is the number of inner arrays. The Neural Network needs all the inputs to have the same length, then we need to pad/truncate (some data will have more and some data will have less quantity of inner arrays of the threshold).
 
 The threshold is totally arbitrary and can be changed by the MAXLEN parameter.
 
@@ -51,7 +51,7 @@ After having all the inputs with same dimension and labels prepared we can split
 
 As the model uses 2D Convolutional Layers we have to reshape the input data to  have explicited NUMBER-OF-INPUTS x MAXLEN x BUCKETS x CHANNELS. NUMBER-OF-INPUTS is the number of the input train data; MAXLEN is the parameter mentioned above; BUCKETS is how we call the length of the inner array (26 as we know); CHANNELS we use 1.
 
-Details are explained below
+Model details are explained below
 
 ## Model
 
